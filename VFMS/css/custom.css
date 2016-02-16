@@ -101,12 +101,13 @@ item,
 {
     margin-bottom: 0px;
     background-color: #74D1EA;
-    border-radius : 0px;
+    border-radius : 0.01px;
     border:none;
+    padding: 0.01px 0px 0.01px 0px;
 }
 .navbar a
 {
-    color: #464646 !important;
+    color: rgba(0,0,0,0.6) !important;
 }
 .navbar a:hover
 {

@@ -11,8 +11,8 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class SiteMaster
-    
+Partial Public Class WebForm1
+
     '''<summary>
     '''form1 control.
     '''</summary>
@@ -21,25 +21,7 @@ Partial Public Class SiteMaster
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-    
-    '''<summary>
-    '''lbl_loginname control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lbl_loginname As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''ASPxButton1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ASPxButton1 As Global.DevExpress.Web.ASPxEditors.ASPxButton
-    
+
     '''<summary>
     '''Label1 control.
     '''</summary>
@@ -48,7 +30,7 @@ Partial Public Class SiteMaster
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''txtUsername control.
     '''</summary>
@@ -57,7 +39,7 @@ Partial Public Class SiteMaster
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtUsername As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Label2 control.
     '''</summary>
@@ -66,7 +48,7 @@ Partial Public Class SiteMaster
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''txtPassword control.
     '''</summary>
@@ -75,7 +57,7 @@ Partial Public Class SiteMaster
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtPassword As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''chkRemberme control.
     '''</summary>
@@ -84,7 +66,7 @@ Partial Public Class SiteMaster
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents chkRemberme As Global.System.Web.UI.WebControls.CheckBox
-    
+
     '''<summary>
     '''LinkButton1 control.
     '''</summary>
@@ -93,7 +75,7 @@ Partial Public Class SiteMaster
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents LinkButton1 As Global.System.Web.UI.WebControls.LinkButton
-    
+
     '''<summary>
     '''btnSumbit control.
     '''</summary>
@@ -102,13 +84,4 @@ Partial Public Class SiteMaster
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btnSumbit As Global.System.Web.UI.WebControls.Button
-    
-    '''<summary>
-    '''MainContent control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents MainContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
 End Class

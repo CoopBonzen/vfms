@@ -57,14 +57,10 @@
                     <ul class="nav navbar-nav navbar-right">
                         <%--<li><a href="#" class="btn-link" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-user"></span>Sign-In</a></li>--%>
                         <li><a href="#">
-                            <asp:Label ID="lbl_loginname" runat="server" Text="5555" ForeColor="GhostWhite"></asp:Label></a></li>
+                            <asp:Label ID="lbl_loginname" runat="server" Text="" ForeColor="Gray"></asp:Label></a></li>
                         <li><a href="#">
                             <asp:Button ID="Button1" CssClass="btn btn-success" runat="server" Text="Logout" /></a><li>
-                        <li><dx:ASPxButton ID="ASPxButton1" runat="server" Text="ASPxButton" CssClass="btn btn-success">
-                            </dx:ASPxButton><li>
                     </ul>
-                    
-
                 </div>
             </div>
         </nav>
@@ -114,30 +110,32 @@
             </asp:ContentPlaceHolder>
             <hr />
         </div>
-        <!-- footer-bottom -->
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <ul class="footer-menu list-inline">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Gallery</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
+        <!-- footer -->
+        <footer id="footer">
+            <!-- footer-bottom -->
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul class="footer-menu list-inline">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
 
-                    <div class="col-sm-6">
-                        <div class="copy-right text-right">
-                            <p>&copy; Copyright <strong>aspxtemplates</strong> by <a href="http://www.aspxtemplates.com"></a></p>
+                        <div class="col-sm-6">
+                            <div class="copy-right text-right">
+                                <p>&copy; Copyright <strong>aspxtemplates</strong> by <a href="http://www.aspxtemplates.com"></a></p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- footer-bottom -->
+            <!-- footer-bottom -->
         </footer>
         <!--/#footer-->
         <!-- Script -->

@@ -197,6 +197,7 @@ item,
 .section-title {	
 	padding-bottom:70px;
 	padding-top:30px;
+    height: 2px;
 }
 
 .section-title h1
@@ -207,6 +208,10 @@ item,
     padding-bottom: 22px;
     text-transform: capitalize;
     color: #009900;
+    top: -20px;
+    left: 24px;
+    width: 248px;
+    height: 23px;
 }
 
 .section-title h1 span {
@@ -411,6 +416,9 @@ item,
     border-top: 1px solid #dfdfdf;
     position: relative;
     background-size: cover;
+    top: 19px;
+    left: 0px;
+    height: 1px;
 }
 
 .footer-widget-wrapper:before {
@@ -575,8 +583,8 @@ item,
 
 .footer-bottom
 {
-    padding: 25px 0 15px;
-    background-color: #85DBD7;
+    padding: 1px 0 10px;
+    background-color: #2daebf;
 }
 
 .footer-bottom a, .footer-bottom p {
